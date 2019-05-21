@@ -19,6 +19,7 @@ exports.onPreRenderHTML = (
 ) => {
   const {
     disableOnDev = true,
+    reportOnly = false,
     mergeScriptHashes = true,
     mergeStyleHashes = true,
     mergeDefaultDirectives = true,
@@ -58,7 +59,7 @@ exports.onPreRenderHTML = (
   };
 
   const cspComponent = React.createElement("meta", {
-    httpEquiv: "Content-Security-Policy",
+    httpEquiv: `${reportOnly ? "Content-Security-Policy-Report-Only" : "Content-Security-Policy"}`,
     content: cspString(csp)
   });
 
