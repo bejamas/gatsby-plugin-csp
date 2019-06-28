@@ -67,4 +67,4 @@ module.exports = {
 
 ## Further reading
 
-- [Improving Security of Gatsby Websites and Apps by Implementing a Strict CSP](http://bjm.as/csp)
+- [Improving Security of Gatsby Websites and Apps by Implementing a Strict CSP](https://bejamas.io/blog/content-security-policy-gatsby-websites/?utm_source=github&utm_campaign=readme)
