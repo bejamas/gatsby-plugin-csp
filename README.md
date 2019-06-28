@@ -64,3 +64,7 @@ module.exports = {
   ]
 };
 ```
+
+## Further reading
+
+- [Improving Security of Gatsby Websites and Apps by Implementing a Strict CSP](http://bjm.as/csp)
