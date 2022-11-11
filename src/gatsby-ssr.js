@@ -59,6 +59,7 @@ exports.onPreRenderHTML = (
   };
 
   const cspComponent = React.createElement("meta", {
+    key: "gatsby-plugin-csp",
     httpEquiv: `${reportOnly ? "Content-Security-Policy-Report-Only" : "Content-Security-Policy"}`,
     content: cspString(csp)
   });
